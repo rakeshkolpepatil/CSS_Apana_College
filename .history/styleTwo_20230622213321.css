@@ -68,30 +68,8 @@ h2{
 h3{
   display: flex;
   justify-content: center;
-  align-items:center;
-  margin-left: 50%;
-  /* text-align: center; */
+  text-align: center;
   border: 2px dotted rebeccapurple;
-  width: 100px;
-  margin: auto;
+  width: 300px;
   background-color:azure;
-}
-
-.div5{
-  width: 100px;
-  height: 100px;
-  background-color:red;
-  margin: auto;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  border: 4px solid black;
-  border-radius: 50%
-}
-
-#div6{
-  height: 100px;
-  border: 10px solid white;
-  background-color:#0f1111;
 }
