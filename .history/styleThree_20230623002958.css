@@ -1,0 +1,37 @@
+div{
+  background-color:burlywood;
+  display:inline;
+}
+
+button{
+  display: block;
+}
+
+/* When display is 'inline' then we can not use height, width and margin-top and margin-bottom properties. If you want to use these properties then use 'inline-block' display property. */
+
+/* 'display: none' this property will remove that element entirely from the DOM  */
+/* 'visibility: hidden' will hide the element but reserve the space, whereas in 'display: none' space is not reserved. */
+#div1 {
+  margin: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color:red;
+}
+
+#div2{
+  margin: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color:green;
+  visibility: hidden;
+}
+
+#div3{
+  margin: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(99, 99, 0, 1);
+}

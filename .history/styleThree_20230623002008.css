@@ -1,0 +1,29 @@
+div{
+  background-color:burlywood;
+  display:inline;
+}
+
+button{
+  display: block;
+}
+
+#div1 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color:red;
+}
+
+#div2{
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color:green;
+}
+
+#div3{
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color:yellow;
+}

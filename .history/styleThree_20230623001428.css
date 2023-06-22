@@ -1,0 +1,23 @@
+div{
+  background-color:burlywood;
+  display:inline;
+}
+
+button{
+  display: block;
+}
+
+#div1{
+  width: 100px;
+  height: 100px;
+}
+
+#div2{
+  width: 100px;
+  height: 100px;
+}
+
+#div3{
+  width: 100px;
+  height: 100px;
+}
