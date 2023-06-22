@@ -1,0 +1,33 @@
+h1{
+  color:darkolivegreen
+}
+p{
+  /* color:blueviolet */
+  color:teal
+}
+button{
+  color:pink;
+  font-size: 30px;
+  font-weight: 600;
+  /* background-color: green; */
+  background-color: rgb(200,255,0);
+  /* padding: 1rem; */
+  margin: 1rem;
+}
+
+#heading1{
+  color:blue
+}
+
+#heading2{
+  color:gold
+}
+
+#heading3{
+  color:#ffaaff
+}
+
+class1{
+  background-color:antiquewhite;
+  color: #000000
+}

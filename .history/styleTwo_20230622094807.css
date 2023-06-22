@@ -1,0 +1,22 @@
+h1{
+  text-align: center;
+  text-decoration:  dotted underline  ;
+  text-decoration:  dashed overline  ;
+}
+#pOne{
+  text-align: justify;
+  font-weight: 100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#pTwo{
+  text-align: justify;
+  font-weight: 300;
+}
+#pThree{
+  text-align: justify;
+  font-weight: 600;
+}
+#pFour{
+  text-align: justify;
+  font-weight: 900;
+}

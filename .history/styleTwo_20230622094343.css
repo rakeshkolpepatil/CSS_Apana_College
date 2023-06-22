@@ -1,0 +1,21 @@
+h1{
+  text-align: center;
+  text-decoration:  dotted underline  ;
+  text-decoration:  dashed overline  ;
+}
+#pOne{
+  text-align: justify;
+  font-weight: 700;
+}
+#pTwo{
+  text-align: justify;
+  font-weight: 300;
+}
+#pThree{
+  text-align: justify;
+  font-weight: 600;
+}
+#pFour{
+  text-align: justify;
+  font-weight: 900;
+}

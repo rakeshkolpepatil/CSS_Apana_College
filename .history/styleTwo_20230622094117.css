@@ -1,0 +1,9 @@
+h1{
+  text-align: center;
+  text-decoration:  dotted underline  ;
+  text-decoration:  dashed overline  ;
+}
+p{
+  text-align: justify;
+  font-weight: 700;
+}
