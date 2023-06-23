@@ -1,0 +1,31 @@
+div{
+  height: 100px;
+  width: 100px;
+  background-color:aqua;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+/* 
+
+1) The 'static' property is the default property for an html element. In this property Top, Bottom, Left, Right and z-index has no effect.
+
+2) The 'relative' property sets element relative to its default position. The top, right, bottom, left and z-index properties will work with this position.
+
+3) The 'absolute' property positions relative to its closest non-staticly positioned ancestor and the element is removed from the flow.
+
+4) The 'fixed' property 
+*/
+
+#box1{
+  position: static;
+}
+#box2{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+#box3{
+  position: absolute;
+  top: 40px;
+}
