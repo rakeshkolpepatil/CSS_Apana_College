@@ -1,0 +1,7 @@
+#div1{
+  height: 100px;
+  width: 100px;
+  position: static;
+  background-image: url("cat_photo.jpeg");
+  background-size: cover;
+}
