@@ -1,0 +1,10 @@
+.contentBox{
+  width: 100px;
+  height: 100px;
+}
+
+#div6{
+  height: 70px;
+  border: 10px solid white;
+  background-color:#0f1111;
+}
