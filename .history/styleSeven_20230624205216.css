@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  text-align: center;
+  margin: auto;
+  margin-top:3rem;
+  margin-bottom: 3rem; 
+  background-color:cadetblue;
+  width: 20vw;
+  border-radius: 10rem;
+  padding: 1rem;
+}
+
+#container{
+  display: flex;
+  border: 2px solid black;
+  height: 20vh;
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  align-items:center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  
+}
+.box{
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+}
+#box1{
+  background-color: red;
+}
+#box2{
+  background-color: yellow;
+}
+#box3{
+  background-color: green;
+}
+#box4{
+  background-color: blue;
+}
+#box5{
+  background-color: maroon;
+}

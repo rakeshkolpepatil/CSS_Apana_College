@@ -1,0 +1,37 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  text-align: center;
+  margin: auto;
+  margin-top, margin-bottom: 5rem; 
+  background-color:cadetblue;
+  width: 20vw;
+}
+#container{
+  display: flex;
+  border: 2px solid black;
+  height: 20vh;
+  width: 80vw;
+  margin: auto;
+}
+.box{
+  width: 100px;
+  height: 100px;
+}
+#box1{
+  background-color: red;
+}
+#box2{
+  background-color: yellow;
+}
+#box3{
+  background-color: green;
+}
+#box4{
+  background-color: blue;
+}
+#box5{
+  background-color: maroon;
+}
