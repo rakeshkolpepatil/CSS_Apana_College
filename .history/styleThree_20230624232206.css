@@ -35,3 +35,12 @@ button{
   height: 100px;
   background-color: rgba(99, 99, 0, 0.5);
 }
+#md{
+  width: 100px;
+  height: 100px;
+}
+@media(width: 700){
+  #med{
+    background-color: red
+  }
+}

@@ -35,3 +35,14 @@ button{
   height: 100px;
   background-color: rgba(99, 99, 0, 0.5);
 }
+#med{
+  width: 100px;
+  height: 100px;
+  background-color:chocolate
+}
+
+@media(max-width: 700px){
+  #med{
+    background-color: red
+  }
+}

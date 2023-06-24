@@ -1,0 +1,43 @@
+ul{
+  list-style-type: none;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color:bisque
+}
+.litem{
+  text-decoration: none;
+  /* background-color:aqua; */
+  /* display: inline; */
+}
+
+#outer{
+  height: 300px;
+  width: 300px;
+  background-color:maroon;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: relative;
+  left: 300px;
+  top: 300px;
+}
+
+#inner{
+  height: 100px;
+  width: 100px;
+  background-color:cadetblue;
+}
+#med{
+  width: 100px;
+  height: 100px;
+  background-color:chocolate
+}
+
+@media(min-width: 900px){
+  #med{
+    background-color: red
+  }
+}
