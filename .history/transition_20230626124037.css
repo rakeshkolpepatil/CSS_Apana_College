@@ -1,0 +1,18 @@
+div{
+  width: 200px;
+  height: 200px;
+  background-color:aqua;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition-property: all;
+  transition-duration: 3s;
+  /* line-height: normal; *2
+  /* vertical-align: middle; */
+  /* padding: 50px 0; */
+}
+div:hover{
+  background-color:blueviolet;
+  color: white;
+}

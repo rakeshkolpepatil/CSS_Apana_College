@@ -1,0 +1,22 @@
+div{
+  width: 200px;
+  height: 200px;
+  background-color:aqua;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition-property: all;
+  transition-duration: 2s;
+  /* transition-timing-function: ease-out; */
+  transition-timing-function: cubic;
+  /* transition-timing-function: steps(5); */
+  /* line-height: normal; */
+  /* vertical-align: middle; */
+  /* padding: 50px 0; */
+}
+div:hover{
+  background-color:blueviolet;
+  color: white;
+  width: 600px;
+}

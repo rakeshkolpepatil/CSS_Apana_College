@@ -1,0 +1,12 @@
+div{
+  width: 200px;
+  height: 200px;
+  background-color:aqua;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* line-height: normal; */
+  /* vertical-align: middle; */
+  /* padding: 50px 0; */
+}

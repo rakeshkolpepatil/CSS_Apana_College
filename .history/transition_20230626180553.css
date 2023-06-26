@@ -1,0 +1,102 @@
+*{
+  margin: 5rem;
+}
+
+#div1{
+  width: 200px;
+  height: 200px;
+  background-color:aqua;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+  transition-delay: 1s; */
+  transition: all 2s ease-in-out 1s;
+  /* transition-timing-function: ease-in; */
+  /* transition-timing-function: cubic; */
+  /* transition-timing-function: steps(5); */
+  /* line-height: normal; */
+  /* vertical-align: middle; */
+  /* padding: 50px 0; */
+}
+#div1:hover{
+  background-color:blueviolet;
+  color: white;
+  width: 600px;
+}
+
+#transfromDiv{
+  width: 200px;
+  height: 200px;
+  margin-top: 3rem;
+  background-color:chocolate;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#transfromDiv:hover{
+  /* transform: rotate(45deg); */
+  transform: rotateX(180deg);
+  transform: scale(2);
+}
+
+@keyframes rotatebox {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(180deg); }
+}
+
+@keyframes rotateboxpercent {
+  0% {
+    transform: rotate(0deg);
+    background-color: yellowgreen
+  }
+  50% {
+    transform: rotate(90deg);
+    background-color:dodgerblue ;
+  }
+  100% {
+    transform: rotate(180deg);
+    background-color:hotpink;
+  }
+}
+
+#animateDiv{
+  width: 200px;
+  height: 200px;
+  margin-top: 3rem;
+  background-color:cadetblue;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* animation-name: rotatebox; */
+  /* animation-duration: 4s; */
+  /* animation-timing-function: cubic; */
+  /* animation-timing-function: linear; */
+  /* animation-timing-function: steps(100); */
+  /* animation-delay: 1s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate-reverse; */
+  animation: rotateboxpercent 4s linear 1s infinite alternate-reverse;
+}
+
+#outer{
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 20px solid black;
+  border-top: 20px dotted yellowgreen;
+  /* animation-direction: */
+  animation: loader 1s ease-in-out -1s infinite normal;
+}
+
+@keyframes loader {
+  from{ transform: rotate(0deg);}
+  to{ transform: rotate(360deg);}
+}
